@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+h3 {
+    margin-top: 10vh;
+}
+
+.topnav {
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    opacity: 60%;
+}
+.topnav button {
+    border: none;
+    background: black;
+    color: white;
+    font-size: 10px;
+}
+
+.headerlogocont {
+    height: 80%;
+    width: 100%;
+}
+
+.headermenucont {
+
+    margin-right: 5vw;
+    float: right;
+}
+#contactbutton {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 70px;
+}
+
+.headermenutext {
+    text-align: cetner;
+    font-size: 15px;
+    margin: 1.5vw;
+
+}
+
+
+.headerlogo {
+    height: 15vh;
+    margin-left: 5vw;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(7, 14, 40);
+}
+
+.topmain {
+    width: 100vw;
+    height: 95vh;
+    background-size: cover;
+    background-image: url(pictures/bakgrundtop.png);
+}
+
+.topmaintext {
+    text-align: left;
+    width: 60%;
+    font-size: 20px;
+    padding-top: 10vh;
+    margin-left: 5vw;
+}
+
+.topmainbutton {
+    background-color: rgb(16, 30, 85);
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    border-radius: 3%;
+    border: none;
+}
+
+
+main {
+    width: 100vw;
+    height: 510vh;
+}
+
+.footercont {
+    width: 90vw;
+    height: 55vh;
+    margin-left: 5vw;
+    color: white;
+}
+
+.footerbox1, .footerbox2, .footerbox3 {
+    width: 29vw;
+    height: 70vh;
+    background-color: rgb(7, 14, 40);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerlogo {
+    padding-top: 10vh;
+    width: 350px;
+    
+}
+.logotext {
+    position: absolute;
+    font-size: small;
+}
+.footertext {
+margin-left: 5vw;
+
+
+}
+.footerlinkedin {
+    width: 40px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+}
+
+footer {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(7, 14, 40);
+}
