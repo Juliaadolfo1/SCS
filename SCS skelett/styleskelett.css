@@ -9,8 +9,7 @@
     flex-direction: column;
 }
 h1, h2, h3, h4, h5 {
-    font-family: 'Times New Roman', Times, serif;
-    
+    font-family: 'Shippori Mincho';
 }
 p {
     line-height: 1.8;
@@ -22,7 +21,7 @@ a {
 }
 
 h3 {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 button {
@@ -31,7 +30,7 @@ button {
 }
 
 .topnav{
-    width: 100%;
+    width: 93.5vw;
     height: 5vh;
     background-color: black;
     color: white;
@@ -109,13 +108,13 @@ button {
     right: 0;
     bottom: 0;
     width: 50vw;
-    height: 40%;
+    height: 100%;
     padding-left: 5vw;
     padding-top: 4rem;
     line-height: 2;
     background: rgb(7, 14, 40);
     opacity: 90%;
-    border-radius: 25px;
+
     color: white;
     font-weight: 500;
     list-style: none;
@@ -185,7 +184,7 @@ main {
 
 .footercont {
     width: 90vw;
-    height: 60vh;
+    height: 55vh;
     margin-left: 5vw;
     color: white;
 }
@@ -193,7 +192,7 @@ main {
 .footerbox,
 .footerbox1 {
     width: 20vw;
-    height: 60vh;
+    height: 55vh;
     background-color: rgb(7, 14, 40);
     display: inline-block;
     vertical-align: top;
@@ -201,14 +200,14 @@ main {
 
 .footerboxpic {
     width: 20vw;
-    height: 60vh;
+    height: 55vh;
     background-color: rgb(7, 14, 40);
     display: inline-block;
     vertical-align: top;
 }
 
 .footerlogo {
-    padding-top: 13vh;
+    padding-top: 7vh;
     width: 250px;
 }
 
@@ -252,11 +251,11 @@ main {
 }
 
 footer {
-    height: 60vh;
+    height: 55vh;
     background-color: rgb(7, 14, 40);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
 
     .mobileburger,
     .mobilemenu,
@@ -268,18 +267,20 @@ footer {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
 
     .topnav {
         font-size: 6px;
+        width: 91vw;
         height: 3vh;
+        text-align: center;
     }
 
-    .navtext1 {
-        margin-left: 7vw;
+    .navtext {
+        margin-left: 20vw;
     }
     .language-menu {
-       padding-left: 7vw;
+       padding-left: 20vw;
     }
     .language-button {
         font-size: 6px;
@@ -313,7 +314,7 @@ footer {
 
     .footerbox {
         width: 37vw;
-        height: 40vh;
+        height: 35vh;
     }
 
     .footertext,
@@ -335,11 +336,11 @@ footer {
     }
 
     .footercont {
-        height: 40vh;
+        height: 35vh;
     }
 
     footer {
-        height: 40vh;
+        height: 35vh;
         width: 100%;
     }
 
