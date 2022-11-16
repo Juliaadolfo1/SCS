@@ -5,91 +5,127 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styleskelett.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <div class="topnav">
-            <img class="navtext" src="pictures/location.png" width="10px" height="10px" alt="">Eskilstuna Sweden
-            <img class="navtext1" src="pictures/clock.png" width="10px" height="10px" alt=""> Mon-Fri 07:30 - 18:30
-            <img class="navtext2" src="pictures/global.png" height="10px" width="10px" alt="">language
-
-
-        </div>
-
-        <div class="headerlogocont">
-            <img class="headerlogo" src="pictures/Logosmal.jpg" alt="">
-            <div class="headermenucont">
-                <a class="headermenutext" href="">Home</a>
-                <a class="headermenutext" href="">Our Mission</a>
-                <a class="headermenutext" href="">Our Offer</a>
-                <a class="headermenutext" href="">About Us</a>
-                <button class="headermenutext" id="contactbutton" onclick="">Contact</button>
-            </div>
-        </div>
-
-
-    </header>
-
-
-    <main>
-        <div class="topmain">
-            <div class="topmaintext">
-                <h1>Increase your sales by entering the Scandinavian construction market</h1>
-                <p>Swedish Construction Sales is a sales and marketing company that specialises in construction
-                    products.
-                    With our expertise in sales and networking, we can connect suppliers producing high-quality products
-                    with renowned resellers and ensure that the sales process is smooth and efficient.
-                </p>
-            </div>
-            <div>
-                <button class="topmainbutton" onclick="">Book a meeting</button>
+    <div class="parentdiv">
+        <header>
+            <div class="topnav">
+                <p> <img src="pictures/location.png" width="10px" alt=""> Eskilstuna Sweden</p>
+                <p><img class="navtext" src="pictures/clock.png" width="10px" alt=""> Mon-Fri 07:30 - 18:30</p>
+                <div class="language-menu">
+                    <button class="language-button"><img src="pictures/global.png" width="10px" alt="">
+                        Language</button>
+                    <div class="language-options">
+                        <a href="">English</a>
+                        <a href="">Swedish</a>
+                        <a href="">Russian</a>
+                    </div>
+                </div>
             </div>
 
-        </div>
-    </main>
-    <footer>
-        <div class="footercont">
-            <div class="footerbox">
-                <img src="pictures/Logosmal.jpg" class="footerlogo" alt="">
-                <p class="logotext">©2022 All rights reserved.</p>
+                <img class="headerlogo" src="pictures/Logosmal.jpg" onclick="location.href=''" alt="">
+                <div class="headermenucont">
+                    <a class="headermenutext" href="">Home</a>
+                    <a class="headermenutext" href="">Our Clients</a>
+                    <a class="headermenutext" href="">Our Offer</a>
+                    <a class="headermenutext" href="">About Us</a>
+                    <button class="headermenutext" id="contactbutton" onclick="">Contact</button>
+                </div>
+                <div>
+                    <ul class="mobilemenu">
+                        <li><a class="menuItem" href="">Home</a></li>
+                        <li><a class="menuItem" href="">Contact Us</a></li>
+                        <li><a class="menuItem" href="">Our Clients</a></li>
+                        <li><a class="menuItem" href="">Our Offer</a></li>
+                        <li><a class="menuItem" href="">Our Career</a></li>
+                        <li><a class="menuItem" href="">About Us</a></li>
+                        <li><a class="menuItem" href="">Suppliers</a></li>
+                        <li><a class="menuItem" href="">Retailers</a></li>
+                        <li><a class="menuItem" href="">LinkedIn</a></li>
+                        <li><a class="menuItem" href="">Terms & Conditions</a></li>
+                    </ul>
+                    <button class="mobileburger">
+                        <i class="menuIcon material-icons">menu</i>
+                        <i class="closeIcon material-icons">close</i>
+                    </button>
+                </div>
+           
+        </header>
+
+
+        <main>
+            <div class="topmain">
+                <div class="topmaintext">
+                    <h1>Increase your sales by entering the Scandinavian construction market</h1>
+                    <p>Swedish Construction Sales is a sales and marketing company that specialises in construction
+                        products.
+                        With our expertise in sales and networking, we can connect suppliers producing high-quality
+                        products
+                        with renowned resellers and ensure that the sales process is smooth and efficient.
+                    </p>
+                </div>
+                <div>
+                    <button class="topmainbutton" onclick="">Book a meeting</button>
+                </div>
             </div>
-            <div class="footerbox">
-                <h3 class="footertext">Home</h3>
-                <a class="footertext" href="">Our Clients</a>
-                <a class="footertext" href="">Our Offer</a>
-                <br>
-                <a class="footertext" href="">Retailer</a>
-                <br>
-                <a class="footertext" href="">Suppliers</a>
+        </main>
 
+
+        <footer>
+            <div class="footercont">
+                <div class="footerboxpic">
+                    <img src="pictures/Logosmal.jpg" class="footerlogo" alt="">
+                    <p class="logotext">©2022 All rights reserved.</p>
+                </div>
+                <div class="footerbox">
+                    <h3 class="footertext">Home</h3>
+                    <br class="mobilefooter">
+                    <a class="mobilefooter" href="">About Us</a>
+                    <br>
+                    <a class="footertext" href="">Our Clients</a>
+                    <a class="footertext" href="">Our Offer</a>
+                    <a class="mobilefooter" href="">Our Career</a>
+                    <a class="mobilefooter" href="">Sustainability</a>
+                    <br>
+                    <a class="footertext" href="">Retailer</a>
+                    <br>
+                    <a class="footertext" href="">Suppliers</a>
+                    <a class="mobilefooter" href="">Terms & Conditions</a>
+
+
+
+                </div>
+                <div class="footerbox1">
+                    <h3 class="footertext">About SCS</h3>
+                    <a class="footertext" href="">About Us</a>
+                    <a class="footertext" href="">Our Career</a>
+                    <a class="footertext" href="">Sustainability</a>
+                    <a class="footertext" href="">Terms & Conditions</a>
+                    <a class="footertext" href="">Privacy policys</a>
+
+
+                </div>
+
+                <div class="footerbox">
+                    <h3 class="footertext">Contact</h3>
+                    <a class="footertext" href="">Contact us</a>
+                    <p class="footertext">Open Mon-Fri: 07.30-18.30</p>
+                    <p class="footertext">Lilla Movägen 11 632 39 <br> Eskilstuna, Sweden</p>
+                    <p class="footertext">+46 73 435 35 88 <br>  </p>
+                    <a class="footertext" href="mailto:oe@swedishconstructionsales.com">oe@swedishconstructionsales.com</a>
+                    <button class="footerlinkedin"><a href=""></a></button>
+
+
+                </div>
             </div>
-            <div class="footerbox">
-                <h3 class="footertext">About SCS</h3>
-                <a class="footertext" href="">About Us</a>
-                <a class="footertext" href="">Our Career</a>
-                <a class="footertext" href="">Terms & Conditions</a>
-                <a class="footertext" href="">Privacy policys</a>
-            </div>
 
-            <div class="footerbox">
-                <h3 class="footertext">Contact</h3>
-                <a class="footertext" href="">Contact us</a>
-                <p class="footertext">Open Mon-Fri: 07.30-18.30</p>
-                <p class="footertext">Lilla Movägen 11 632 39 <br> Eskilstuna, Sweden</p>
-                <p class="footertext">+46 73 435 35 88 <br> <a href="mailto:oe@swedishconstructionsales.com"> oe@swedishconstructionsales.com</a> </p>
-                <br>
-                <button class="footerlinkedin"><a href=""></a></button>
-
-
-            </div>
-        </div>
-
-    </footer>
-
-
+        </footer>
+    </div>
 </body>
 
 </html>
