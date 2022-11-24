@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat'
+}
+
+.parentdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    margin-top: 5vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.topnav{
+    width: 93.5vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    opacity: 70%;
+    display: inline-flex;
+    padding-top: 1.5vh;
+    padding-left: 5vw;
+}
+
+.navtext {
+    padding-left: 2vw;
+}
+
+.language-menu {
+    display: inline-block;
+    position: relative;
+    padding-left: 55vw;
+}
+
+.language-button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+.language-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: black;
+    width: 7vw;
+}
+
+.language-menu:hover .language-options {
+    display: block;
+}
+
+.language-options a {
+    display: block;
+    color: white;
+    padding: 5px;
+}
+
+.headermenucont {
+    margin-right: 5vw;
+    float: right;
+}
+
+.mobileburger {
+    position: fixed;
+    z-index: 100;
+    top: 3.5rem;
+    right: 1rem;
+    padding: 4px;
+    background-color: rgb(7, 14, 40);
+    margin-right: 5vw;
+}
+
+.closeIcon {
+    display: none;
+    color: white;
+}
+
+.menuIcon {
+    color: white;
+}
+
+.mobilemenu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 10;
+    right: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 100%;
+    padding-left: 5vw;
+    padding-top: 4rem;
+    line-height: 2;
+    background: rgb(7, 14, 40);
+    opacity: 90%;
+
+    color: white;
+    font-weight: 500;
+    list-style: none;
+}
+
+.showMenu {
+    transform: translatey(0);
+}
+
+#contactbutton {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 70px;
+}
+
+.headermenutext {
+    font-size: 15px;
+    margin: 1.5vw;
+}
+
+.headerlogo {
+    height: 12vh;
+    margin-left: 5vw;
+    position: relative;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(7, 14, 40);
+}
+
+.topmain {
+    height: 95vh;
+    background-size: cover;
+    background-image: url(pictures/bakgrundtop.png);
+    padding-left: 5vw;  
+}
+
+.topmaintext {
+    text-align: left;
+    width: 60%;
+    padding-top: 10vh;
+    font-size: 20px;
+}
+
+.topmainbutton {
+    background-color: rgb(16, 30, 85);
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5vh;
+    border-radius: 5px;
+}
+
+.topmainbutton:hover {
+    background-color: white;
+    color: rgb(16, 30, 85);
+    border: 2px solid rgb(16, 30, 85);
+    transition: 0.2s;
+}
+
+main {
+    height: 100%;
+}
+
+.footercont {
+    width: 90vw;
+    height: 55vh;
+    margin-left: 5vw;
+    color: white;
+}
+
+.footerbox,
+.footerbox1 {
+    width: 20vw;
+    height: 55vh;
+    background-color: rgb(7, 14, 40);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerboxpic {
+    width: 20vw;
+    height: 55vh;
+    background-color: rgb(7, 14, 40);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerlogo {
+    padding-top: 7vh;
+    width: 250px;
+}
+
+.logotext {
+    position: absolute;
+    font-size: small;
+}
+
+.footertext {
+    margin-left: 5vw;
+    line-height: 2;
+    font-size: medium;
+    display: inline-block;
+}
+
+.mobilefooter {
+    margin-left: 5vw;
+    line-height: 2;
+    font-size: medium;
+}
+
+.footerlinkedin {
+    width: 3.5vw;
+    height: 7vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    border-radius: 50%;
+    background-image: url(pictures/linkedinvit.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: rgb(0, 119, 181);
+}
+
+.footerlinkedin:hover {
+    background-image: url(pictures/linkedinsvart.png);
+    background-repeat: no-repeat;
+    background-size: 3.5vh;
+    background-color: white;
+    transition: 0.1s;
+}
+
+footer {
+    height: 60vh;
+    background-color: rgb(7, 14, 40);
+}
+
+@media screen and (min-width: 800px) {
+
+    .mobileburger,
+    .mobilemenu,
+    .menuItem,
+    .closeIcon,
+    .menuIcon, 
+    .mobilefooter {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .topnav {
+        font-size: 6px;
+        width: 91vw;
+        height: 3vh;
+        text-align: center;
+    }
+
+    .navtext {
+        margin-left: 20vw;
+    }
+    .language-menu {
+       padding-left: 20vw;
+    }
+    .language-button {
+        font-size: 6px;
+    }
+
+    .headermenucont,
+    .headermenutext,
+    #contactbutton {
+        display: none
+    }
+
+    header {
+        height: 15vh;
+    }
+
+    .headerlogo {
+        height: 9vh;
+        padding-left: 5vw;
+        padding-top: 1vh;
+    }
+
+    .topmaintext {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .footerboxpic {
+        display: none;
+    }
+
+    .footerbox {
+        width: 37vw;
+        height: 35vh;
+    }
+
+    .footertext,
+    .mobilefooter {
+        font-size: small;
+        line-height: 1.8;
+    }
+
+    .footerlinkedin {
+        display: none;
+    }
+
+    .footerbox1 {
+        display: none;
+    }
+
+    .mobilefooter {
+        display: inline-block;
+    }
+
+    .footercont {
+        height: 35vh;
+    }
+
+    footer {
+        height: 35vh;
+    }
+
+}
