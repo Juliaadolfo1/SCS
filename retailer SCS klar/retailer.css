@@ -1,0 +1,420 @@
+
+
+/*All HTML*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+p {
+    line-height: 1.5;
+}
+.parentdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.topnav{
+    width:  93.5vw;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    opacity: 70%;
+    display: inline-flex;
+    padding-top: 1.5vh;
+    padding-left: 5vw;
+}
+
+.navtext {
+    padding-left: 2vw;
+}
+
+.language-menu {
+    display: inline-block;
+    position: relative;
+    padding-left: 55vw;
+}
+
+.language-button {
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+.language-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+    background-color: black;
+    width: 7vw;
+}
+
+.language-menu:hover .language-options {
+    display: block;
+}
+
+.language-options a {
+    display: block;
+    color: white;
+    padding: 5px;
+}
+.headermenucont {
+    margin-right: 5vw;
+    float: right;
+}
+.mobileburger {
+    position: fixed;
+    z-index: 100;
+    top: 2.5rem;
+    right: 1rem;
+    padding: 4px;
+    background-color: rgb(7, 14, 40);
+    margin-right: 5vw;
+}
+.closeIcon {
+    display: none;
+    color: white;
+}
+.menuIcon {
+    color: white;
+}
+.mobilemenu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 4rem;
+    line-height: 3;
+    background: rgb(61, 83, 160);
+    color: white;
+    font-weight: 600;
+}
+.showMenu {
+    transform: translatey(0);
+}
+
+#contactbutton {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border-radius: 70px;
+}
+
+.headermenutext {
+    font-size: 15px;
+    margin: 1.5vw;
+}
+
+.headerlogo {
+    height: 12vh;
+    margin-left: 5vw;
+    position: relative;
+}
+
+header {
+    height: 20vh;
+    background-color: rgb(7, 14, 40);
+}
+
+.topmain {
+    height: 85vh;
+    background-size: cover;
+    background-image: url(pictures/retailer.png);
+    padding-left: 5vw;  
+}
+
+.topmainText {
+    text-align: left;
+    width: 60%;
+    padding-top: 10vh;
+    font-size: 20px;
+}
+
+.topmainButton {
+    background-color: rgb(16, 30, 85);
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.topmainButton:hover {
+    background-color: white;
+    color: rgb(16, 30, 85);
+    border: 2px solid rgb(16, 30, 85);
+    transition: 0.2s;
+}
+.topmain {
+    background-size: cover;
+    background-image: url(pictures/retailer.png);
+}
+/* Partnercontariner hidden for now
+
+ .partnercont {
+    height: 15vh;
+    background-color: rgb(7, 14, 40);
+}
+ 
+.partnerbox {
+    padding-left: 4vw;
+    display: inline;
+}
+
+.partnerlogo {
+    padding-top: 3vh;
+    height: 10vh;
+    padding-left: 3.5vw;
+    opacity: 70%;
+} */
+
+.textcontainer {
+    height: 120vh;
+    padding-left: 5vw;
+}
+
+.text {
+    width: 90vw;
+    height: 40vh;
+    font-size: 20px;
+}
+
+.picture {
+    width: 85vw;
+    height: 80vh;
+    margin: auto;
+    margin-bottom: 10vh;
+    background-image: url(pictures/retailer1.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.buttoncontainer {
+    width: 90vw;
+    height:30vh ; 
+    margin: auto;
+    text-align: center;
+}
+
+.meetingbutton {
+    width: 30vw;
+    height: 20vh;
+    font-size: 30px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+}
+main {
+    height: 100%;
+}
+/*All HTML*/
+.footercont {
+    width: 90vw;
+    height: 55vh;
+    margin-left: 5vw;
+    color: white;
+}
+
+.footerbox,
+.footerbox1 {
+    width: 20vw;
+    height: 55vh;
+    background-color: rgb(7, 14, 40);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerboxpic {
+    width: 20vw;
+    height: 55vh;
+    background-color: rgb(7, 14, 40);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footerlogo {
+    padding-top: 7vh;
+    width: 250px;
+}
+
+.logotext {
+    position: absolute;
+    font-size: small;
+}
+
+.footertext {
+    margin-left: 5vw;
+    line-height: 2;
+    font-size: medium;
+    display: inline-block;
+}
+
+.mobilefooter {
+    margin-left: 5vw;
+    line-height: 2;
+    font-size: medium;
+}
+
+.footerlinkedin {
+    width: 3.5vw;
+    height: 7vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    border-radius: 50%;
+    background-image: url(pictures/linkedinvit.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: rgb(0, 119, 181);
+}
+
+.footerlinkedin:hover {
+    background-image: url(pictures/linkedinsvart.png);
+    background-repeat: no-repeat;
+    background-size: 3.5vh;
+    background-color: white;
+    transition: 0.1s;
+}
+ 
+footer {
+    height: 60vh;
+    background-color: rgb(7, 14, 40);
+}
+
+
+@media screen and (min-width: 1200px) {
+    .mobilebreak {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    .mobileburger,
+    .mobilemenu,
+    .menuItem,
+    .closeIcon,
+    .menuIcon, 
+    .mobilefooter {
+        display: none;
+    }
+   
+}
+
+@media screen and (max-width: 1000px) {
+    .topnav {
+        font-size: 7px;
+        width: 91vw;
+        height: 3vh;
+        text-align: center;
+    }
+
+    .language-button {
+        font-size: 6px;
+    }
+    .topmainText {
+        font-size: 15px;
+        width: 80%;
+    }
+   
+}
+@media screen and (max-width: 800px) {
+     .headermenucont,
+    .headermenutext,
+    #contactbutton {
+        display: none
+    }
+
+}
+/* Ipad */
+@media screen and (max-width: 700px) {
+    .navtext {
+        margin-left: 20vw;
+    }
+    .language-menu {
+       padding-left: 20vw;
+    }
+
+    header {
+        height: 15vh;
+    }
+
+    .headerlogo {
+        height: 9vh;
+        padding-left: 5vw;
+        padding-top: 1vh;
+    }
+
+    .footerboxpic {
+        display: none;
+    }
+
+    .footerbox {
+        width: 37vw;
+        height: 35vh;
+    }
+
+    .footertext,
+    .mobilefooter {
+        font-size: small;
+        line-height: 1.8;
+    }
+
+    .footerlinkedin {
+        display: none;
+    }
+
+    .footerbox1 {
+        display: none;
+    }
+
+    .mobilefooter {
+        display: inline-block;
+    }
+
+    .footercont {
+        height: 35vh;
+    }
+
+    footer {
+        height: 40vh;
+    }
+    .partnercont {
+        display: none;
+    }
+    .textcontainer {
+        height: 200vh;
+    }
+   .text {
+    height: 70vh;
+   }
+   .picture {
+    height: 30vh;
+   }
+   .meetingbutton {
+    width: 50vw;
+    height: 15vh;
+   }
+   }
